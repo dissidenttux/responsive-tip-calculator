@@ -46,28 +46,27 @@
 		(Main content that's unique to this webpage)
 	-->
 	<main>
-		<div>
-			<!-- Title -->
-			<h1>Responsive Tip Calc</h1>
-			
+		<div>			
 			<!-- Input for meal total, with submit button -->
-			<input>
-			<button>Submit</button>
+			<label for="meal">Input total amount for the meal</label><br>
+			<input type="text" id="meal" name="meal" value="$">
+			<button>Submit</button><br>
 			
 			<!-- Input for number of guests, with submit button -->
-			<input>
-			<button>Submit</button>
+			<label for="guests">Input the amount of guests in the meal table</label><br>
+			<input type="text" id="guests" name="guests" value="#">
+			<button>Submit</button><br>
 			
-			<!-- Input for number of guests, with submit button -->
-			<input>
-			<button>Submit</button>
+			<!-- Input for quality of service (tip percentage), with submit button -->
+			<label for="tip">Input the tip amount based on quality of service</label><br>
+			<input type="text" id="tip" name="tip" value="%">
+			<button>Submit</button><br><br>
 			
-			<!-- Field for showing the tip amount you must pay -->
-			<div></div>
+			<!-- Field for showing the tip amount you must pay (result) -->
+			<div>[Tip Amount Here]</div><br>
 			
-			<!-- Field for showing the total amount you pay, meal + tip -->
-			<div></div>
-			
+			<!-- Field for showing the total amount you pay, meal + tip (result) -->
+			<div>[Total Amount Here]</div><br>
 		</div>
 	</main>
 	<!-- Document Section: Footer
