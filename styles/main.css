@@ -1,1 +1,22 @@
+h1 {
+    color: rgb(69, 60, 158);
+  }
+  html {
+    font-family: "myFont", "Bitstream Vera Serif", serif;
+  }
+  .positioned {
+    position: static;
+    background: rgb(255, 153, 0);
+  }
 
+ label {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(196, 214, 147);
+ }
+
+ div {
+     font: 1em sans-serif;
+ }
