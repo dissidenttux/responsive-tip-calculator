@@ -9,7 +9,7 @@
   .container {
 	margin: -5rem auto;
     width: 22rem;
-    height: 56rem;
+    height: 59rem;
     background-color: #fff;
     position: absolute;
     left: 50%;
@@ -71,7 +71,6 @@
   .tip {
     text-align: center;
     font-size: 18px;
-    display: none;
   }
 
   footer {
