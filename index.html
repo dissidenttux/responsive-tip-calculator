@@ -44,79 +44,65 @@
 	<div class="container">
 		<h1>TIP CALCULATOR</h1>
 		<div class="wrapper">
-
 			<img src="SunLogo.png" alt="">
 			<br>
-
-
 	<!-- Document Section: Main Content 
 		(Main content that's unique to this webpage)
 	-->
 	
-	<main>
-		<h3>PINOY HEAVEN</h3>
-		<menu>
-			<span>Arroz Caldo</span>
-			<span>Bicol Express</span>
-			<span>Fresh Lumpiya</span>
-			<span>Kare-Kare</span>
-			<span>Kilawin</span>
-			<span>Lechon</span>
-			<span>Lumpiyang Shanghai</span>
-			<span>Pansit</span>
-			<span>Pinakbet</span>
-			<span>Sinigang</span>
-			<span>Sisig</span>
-		  </menu>
+		<main>
+			<h3>PINOY HEAVEN</h3>
+			<menu>
+				<span>Arroz Caldo</span>
+				<span>Bicol Express</span>
+				<span>Fresh Lumpiya</span>
+				<span>Kare-Kare</span>
+				<span>Kilawin</span>
+				<span>Lechon</span>
+				<span>Lumpiyang Shanghai</span>
+				<span>Pansit</span>
+				<span>Pinakbet</span>
+				<span>Sinigang</span>
+				<span>Sisig</span>
+			  </menu>
+			<div>		
+			<!-- Input for the cost of the meal-->
+					<p>‎‎‏‏‎ ‎</p>
+					<label for="meal">Check Amount</label><br>
+					$<input type="text" id="meal" placeholder="Amount of the meal"><br>
 
-		<div>		
-		<!-- Input for the cost of the meal-->
-				<p class="positioned">‎‎‏‏‎ ‎</p>
-				<label for="meal">Check Amount</label><br>
-				$<input type="text" id="meal" placeholder="Amount of the meal"><br>
+					<!-- Input for number of guests-->
+					<label for="guests">Total Number of Guests</label><br>
+					<input type="text" id="guests" name="guests" placeholder="Number of guests"><br>
 
-				<!-- Input for number of guests-->
-				<label for="guests">Total numbner of guests</label><br>
-				<input type="text" id="guests" name="guests" placeholder="Number of guests"><br>
+					<!-- Input for quality of service (tip percentage), with submit button -->
+					<label for="service">Quality of Service</label><br>
+					<select id="service">
+						<option selected disabled hidden>
+							Select
+						</option>
+						<option value="0.25">25% - Top Notch</option>
+						<option value="0.20">20% - Excellent</option>
+						<option value="0.15">15% - Good</option>
+						<option value="0.10">10% - Bad</option>
+						<option value="0.05">5% - Worst</option>
+					</select> <button id="calculate">Calculate</button>
+					<br>
 
-				<!-- Input for quality of service (tip percentage), with submit button -->
-				<label for="service">Quality of service</label><br>
-				<select id="service">
-					<option selected disabled hidden>
-						Select
-					</option>
-					<option value="0.25">25% - Top Notch</option>
-					<option value="0.20">20% - Excellent</option>
-					<option value="0.15">15% - Good</option>
-					<option value="0.10">10% - Bad</option>
-					<option value="0.05">5% - Worst</option>
-				</select> <button id="calculate">Calculate</button>
-				<br>
-
-		</div>
-		<div class="Tip">
-
-			<p>Per Person Tip Amount</p>
-
-			$<span id="total"></span><br>
-			<span2 id="each"></span2>
-			<p>Total Tip Amount</p>
-			$<span id="tiptotal"></span>
-
-			<h2>For your entertainment!</h2>
-			  <div class="videoWrapper">
-				<!-- Copy & Pasted from YouTube -->
-				<iframe width="560" height="349" src="/Users/mariacarlotahancock/Desktop/ CAUGHT DURING QUARANTINE.mp4" frameborder="0" allowfullscreen></iframe>
-			  </div>
-			
-		</div>
-	
-	</main>
+			</div>
+			<div class="Tip">
+				<p>Per Person Tip Amount</p>
+				$<span id="total"></span><br>
+				<span2 id="each"></span2>
+				<p>Total Tip Amount</p>
+				$<span id="tiptotal"></span>
+		</main>
+	</div>
 	<!-- Document Section: Footer
 		(Fineprint, copyright notices, or contact info. Info not critical or secondary to site, SEO stuff, etc/)
 	-->
-	<footer>
-		<p>This is freedom software under the GNU Affero General Public License version 3 [AGPLv3].</p>
+	<footer class="text-centered">
+		<p>This is freedom software licensed under the GNU Affero General Public License version 3 [AGPLv3].</p>
 	</footer>
 </body>
 </html>

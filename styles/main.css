@@ -7,14 +7,13 @@
   /* The container for all the styling of the document - 
    * primarily the containing element for mobile viewers. */
   .container {
-	margin: -5rem auto;
+	margin: 2rem auto 1rem auto;
     width: 22rem;
-    height: 56rem;
+    height: auto;
     background-color: #fff;
     position: absolute;
     left: 50%;
-    top: 50%;
-    transform: translateX(-50%) translateY(-25%);
+    transform: translateX(-50%);
     border-radius: 20px;
   }
   
@@ -110,35 +109,17 @@ h3 {
     margin: 0 auto;
     max-width: 20%;
   }
-  .bg-image {
-    background-color: tomato;
-    width: max-content;
-    height: 100%;
-    background-image: url(https://www.discoveryprimea.com/files/2018/07/Chicken-and-Pork-Adobo.jpg), 
-    url(https://assets.epicurious.com/photos/5a7894d5c6aea21096d5582f/1:1/w_1600,c_limit/Filipino-Cure-for-the-Common-Cold-31012018.jpg), 
-    url(https://www.sbs.com.au/food/sites/sbs.com.au.food/files/styles/full/public/bicol-express.jpg?itok=n5UymIPE),
-    url(https://i.natgeofe.com/n/513ea147-9a2e-4a7b-a67d-9ade2d041b88/bad-saint-food-roll_16x9.jpg?w=1200),
-    url(https://www.discoveryprimea.com/files/2018/07/Kare-kare-768x622.png),
-    url(https://bigseventravel.com/wp-content/uploads/2020/08/Screenshot-2020-08-20-at-15.07.57-1024x770.png),
-    url(https://www.discoveryprimea.com/files/2018/07/Lechon-768x768.jpg),
-    url(https://www.rewardsnetwork.com/wp-content/uploads/2016/12/FilipinoFood_Lumpia.jpg),
-    url(https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_700/MTc0MTU4Mjc5MjI2ODkzODIw/recipe-for-pancit-sotanghon-the-slippy-and-yummy-philippine-glass-noodles.webp),
-    url(https://www.foxyfolksy.com/wp-content/uploads/2016/09/pinakbet-tagalog.jpg),
-    url(https://www.discoveryprimea.com/files/2018/07/Sinigang.jpg),
-    url(https://www.rewardsnetwork.com/wp-content/uploads/2016/12/FilipinoFood_Sisig.jpg); 
-    background-repeat: no repeat;
-    background-position-y: unset; 
+  
+  .text-centered {
+	  margin-left: auto;
+	  margin-right: auto;
+	  text-align: center;
+	  padding: 0 1rem 0 1rem;
   }
-
-.videoWrapper {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
-    height: 0;
-  }
-  .videoWrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  
+  
+  /* DESKTOP VERSION - CASHIER */
+  
+  @media screen and (min-width: 992px) {
+	
   }
