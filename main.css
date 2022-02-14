@@ -1,0 +1,164 @@
+/* Video added by Carlota  */
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+  }
+  .videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Aaron's CSS */
+
+  body {
+    background-color: #001f4f;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .container {
+    width: 400px;
+    height: 930px;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-25%);
+    border-radius: 20px;
+  }
+  
+  h1 {
+    position: absolute;
+    left: 50%;
+    top: -40px;
+    width: 300px;
+    transform: translateX(-50%);
+    background-color: #ff851b;
+    color: #fff;
+    font-weight: 100;
+    font-weight: bolder;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 22px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .wrapper {
+    padding: 20px;
+  }
+  
+  input,
+  select {
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid #0074d9;
+    padding: 10px;
+  }
+  
+  input:focus,
+  select:focus {
+    border: 1px solid #0074d9;
+    outline: none;
+  }
+  
+  select {
+    width: 88% !important;
+  }
+  
+  button {
+    margin: 20px auto;
+    width: 150px;
+    height: 40px;
+    background-color: #39cccc;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .tip {
+    text-align: center;
+    font-size: 18px;
+    display: none;
+  }
+
+  footer {
+    font-style: italic;
+    color: rgb(226, 212, 212);
+  }
+
+  menu {
+    background: #ff851b;
+    padding: 0.25rem;
+    overflow-y: scroll;
+    white-space: nowrap;
+  }
+
+  span {
+    background: #679b33;
+    color: #e9e2df;
+    display: inline-block;
+    margin: 0.25rem;
+    padding: 0.5rem;
+    ruby-span: none;
+    width: fit-content;
+  }
+h3 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-stretch: ultra-expanded;
+  font-size: 13;
+  }
+
+  h2 {
+    color: #ff851b;
+  }
+
+  img {
+    float: right;
+    display: block;
+    margin: 0 auto;
+    max-width: 20%;
+  }
+  
+  
+
+  /* .leftBG{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:50%;
+    height:100%;
+    z-index:1;
+    background:url(https://www.discoveryprimea.com/files/2018/07/Chicken-and-Pork-Adobo.jpg) top right, 
+    url(https://assets.epicurious.com/photos/5a7894d5c6aea21096d5582f/1:1/w_1600,c_limit/Filipino-Cure-for-the-Common-Cold-31012018.jpg) top right, 
+    url(https://www.sbs.com.au/food/sites/sbs.com.au.food/files/styles/full/public/bicol-express.jpg?itok=n5UymIPE) middle right,
+    url(https://i.natgeofe.com/n/513ea147-9a2e-4a7b-a67d-9ade2d041b88/bad-saint-food-roll_16x9.jpg?w=1200) center right,
+    url(https://www.discoveryprimea.com/files/2018/07/Kare-kare-768x622.png) below right,
+    url(https://bigseventravel.com/wp-content/uploads/2020/08/Screenshot-2020-08-20-at-15.07.57-1024x770.png) bottom right;
+} */
+
+/* .rightBG{
+    position:absolute;
+    top:0px;
+    left:auto;
+    right:0px;
+    width:50%;
+    height:100%;
+    z-index:1;
+    background:url(https://www.discoveryprimea.com/files/2018/07/Lechon-768x768.jpg) top left,
+    url(https://www.rewardsnetwork.com/wp-content/uploads/2016/12/FilipinoFood_Lumpia.jpg) top left,
+    url(https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_700/MTc0MTU4Mjc5MjI2ODkzODIw/recipe-for-pancit-sotanghon-the-slippy-and-yummy-philippine-glass-noodles.webp) middle left,
+    url(https://www.foxyfolksy.com/wp-content/uploads/2016/09/pinakbet-tagalog.jpg) center left,
+    url(https://www.discoveryprimea.com/files/2018/07/Sinigang.jpg) below left,
+    url(https://www.rewardsnetwork.com/wp-content/uploads/2016/12/FilipinoFood_Sisig.jpg) bottom left;
+} */
+
+
+    
+
+  

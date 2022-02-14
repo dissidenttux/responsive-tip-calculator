@@ -10,7 +10,7 @@
     <title>Responsive Tip Calc</title>
     <!-- Scripts (loads ASAP)
     (cite: https://stackoverflow.com/questions/436411/where-should-i-put-script-tags-in-html-markup)-->
-    <script src="./scripts/main.js" defer></script>
+    <script src="scripts/main.js" defer></script>
     <!-- Webpage's Authorship -->
     <meta name="author" content="Co-authored by: Michael &quot;Cal&quot; Krug, Maria Hancock, Aaron Hancock">
     <!-- Webpage's Description: Used in search engine result pages -->
@@ -20,7 +20,7 @@
     <!-- Responsive Website Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Webpage's styling; i.e. the Cascading Style Sheet (CSS3) of this page -->
-    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="styles/main.css">
     <!-- ************************** -->
 
 	
@@ -37,56 +37,93 @@
 -->
 
 <body>
-    
+    <!--First section-->
+  <div style="background-image: url('/Users/mariacarlotahancock/Desktop/responsive-tip-calculator/Background Collage.gif'); 
+  background-size: cover; height: 620px; padding-top: 100px; padding-right: 60px; background-repeat: repeat-y;">
+  </div>
 	<!-- Document Section: Header
 		(The strip: big heading, logo, tagline, usually the same between pages)
 	-->
 	<div class="container">
 		<h1>TIP CALCULATOR</h1>
 		<div class="wrapper">
-			<img src="SunLogo.png" alt="">
+
+			<img src="SunLogo.png", alt="">
 			<br>
+
+
 	<!-- Document Section: Main Content 
 		(Main content that's unique to this webpage)
 	-->
 	
-		<main>
+	<main>
+		<h3>PINOYum!</h3>
+		
+		<menu>
+			<span>Arroz Caldo</span>
+			<span>Bicol Express</span>
+			<span>Fresh Lumpiya</span>
+			<span>Kare-Kare</span>
+			<span>Kilawin</span>
+			<span>Lechon</span>
+			<span>Lumpiyang Shanghai</span>
+			<span>Pansit</span>
+			<span>Pinakbet</span>
+			<span>Sinigang</span>
+			<span>Sisig</span>
+		  </menu>
+
+		<div>		
+		
 			<!-- Input for the cost of the meal-->
-					<label for="meal">Check Amount</label><br>
-					$<input type="text" id="meal" placeholder="Amount of the meal"><br>
+			<p class="positioned"> .. </p>
+			<label for="meal">Check Amount</label><br>
+			$<input type="text" id="meal" placeholder="Amount of the meal"><br>
 
-					<!-- Input for number of guests-->
-					<label for="guests">Total Number of Guests</label><br>
-					<input type="text" id="guests" name="guests" placeholder="Number of guests"><br>
+			<!-- Input for number of guests-->
+			<label for="guests">Total numbner of guests</label><br>
+			<input type="text" id="guests" name="guests" placeholder="Number of guests"><br>
 
-					<!-- Input for quality of service (tip percentage), with submit button -->
-					<label for="service">Quality of Service</label><br>
-					<select id="service">
-						<option selected disabled hidden>
-							Select
-						</option>
-						<option value="0.25">25% - Top Notch</option>
-						<option value="0.20">20% - Excellent</option>
-						<option value="0.15">15% - Good</option>
-						<option value="0.10">10% - Bad</option>
-						<option value="0.05">5% - Worst</option>
-					</select> <button id="calculate">Calculate</button>
-					<br>
+			<!-- Input for quality of service (tip percentage), with submit button -->
+			<label for="service">Quality of service</label><br>
+			<select id="service">
+				<option selected disabled hidden>
+					Select
+				</option>
+				<option value="0.25">25% - Top Notch</option>
+				<option value="0.20">20% - Excellent</option>
+				<option value="0.15">15% - Good</option>
+				<option value="0.10">10% - Bad</option>
+				<option value="0.05">5% - Worst</option>
+			</select> <button id="calculate">Calculate</button>
+			<br>
 
-			</div>
-			<div class="tip">
-				<p>Per Person Tip Amount</p>
-				$<span id="total"></span><br>
-				<span2 id="each"></span2>
-				<p>Total Tip Amount</p>
-				$<span id="tiptotal"></span>
-		</main>
+	</div>
+	<div class="Tip">
+
+		<p>Per Person Tip Amount</p>
+
+		$<span id="total"></span><br>
+		<span2 id="each"></span2>
+		<p>Total Tip Amount</p>
+		$<span id="tiptotal"></span>
+			<h2>For your entertainment!</h2>
+			  <div class="videoWrapper">
+				<!-- Copy & Pasted from YouTube -->
+				<iframe width="560" height="349" src="https://www.youtube.com/watch?v=_Etwow8lpwI" frameborder="0" allowfullscreen></iframe>
+			  </div>
+			
+		</div>
+	
+	</main>
 	<!-- Document Section: Footer
 		(Fineprint, copyright notices, or contact info. Info not critical or secondary to site, SEO stuff, etc/)
 	-->
-	<footer class="text-centered">
-		<p>This is freedom software licensed under the GNU Affero General Public License version 3 [AGPLv3].</p>
+
+	<br>
+	<br>
+	<footer>
+		<p>This is freedom software under the GNU Affero General Public License version 3 [AGPLv3].</p>
 	</footer>
-	</div>
 </body>
 </html>
