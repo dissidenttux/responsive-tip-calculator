@@ -12,7 +12,7 @@
     width: 22rem;
     height: 90%;
     background-color: #fff;
-    position: relative;
+    position: absolute;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 20px;
