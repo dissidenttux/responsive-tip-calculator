@@ -44,7 +44,7 @@
 	<div class="container">
 		<h1>TIP CALCULATOR</h1>
 		<div class="wrapper">
-			<img src="SunLogo.png" alt="">
+			<img class="logo-sun" src="./assets/logo-sun.png" alt="Sun Logo">
 			<br>
 	<!-- Document Section: Main Content 
 		(Main content that's unique to this webpage)
@@ -53,14 +53,18 @@
 		<main>
 			<!-- Input for the cost of the meal-->
 					<label for="meal">Check Amount</label><br>
-					$<input type="text" id="meal" placeholder="Amount of the meal"><br>
+					$<input type="text" id="meal" placeholder="Amount of the meal">
+					<br>
+					<br>
 
 					<!-- Input for number of guests-->
-					<label for="guests">Total Number of Guests</label><br>
-					<input type="text" id="guests" name="guests" placeholder="Number of guests"><br>
+					<label for="guests"># of Guests (Split)</label><br>
+					<input type="text" id="guests" name="guests" placeholder="Number of guests">
+					<br>
+					<br>
 
 					<!-- Input for quality of service (tip percentage), with submit button -->
-					<label for="service">Quality of Service</label><br>
+					<label for="service">Quality of Service (Tip %)</label><br>
 					<select id="service">
 						<option selected disabled hidden>
 							Select
@@ -75,7 +79,7 @@
 
 			</div>
 			<div class="tip">
-				<p>Per Person Tip Amount</p>
+				<p>Tip Amount Per Guest (Split)</p>
 				$<span id="total"></span><br>
 				<span2 id="each"></span2>
 				<p>Total Tip Amount</p>
