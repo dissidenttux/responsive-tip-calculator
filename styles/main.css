@@ -12,10 +12,13 @@
     width: 22rem;
     height: 90%;
     background-color: #fff;
-    position: absolute;
+    position: relative;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 20px;
+  }
+  .wrapper {
+	  position: static;
   }
   
   h1 {
@@ -110,27 +113,39 @@ h3 {
     margin: 0 auto;
     max-width: 20%;
   }
+  .footer {
+  }
   
   .text-centered {
 	  margin-left: auto;
 	  margin-right: auto;
 	  text-align: center;
-	  padding: 0 1rem 0 1rem;
-	  position: fixed;
-	  bottom: 0;
+	  padding: 0 1rem 1rem 1rem;
+	  bottom: 1em;
   }
   
   .logo-sun {
 	  position: absolute;
 	  right: 1rem;
+	  width: 5rem;
   }
   
   
   /* DESKTOP VERSION - CASHIER */
   
   @media screen and (min-width: 992px) {
+  
+	/* ELEMENT-SELECTORS */
 	body {
 		background-color: #007EFF;
 		background-image: url("");
 	}
+	
+	/* STRUCTURES */
+	
+	.container {
+		width: 90%;
+	}
+	
+	/* SKINS */
   }
