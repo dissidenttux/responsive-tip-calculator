@@ -10,13 +10,14 @@
   .container {
 	margin: 2rem auto 1rem auto;
     width: 22rem;
-    height: 90%;
+    height: 93%;
     background-color: #fff;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 20px;
   }
+  
   .wrapper {
 	  position: static;
   }
@@ -79,6 +80,7 @@
 
   footer {
     font-style: italic;
+    font-size: .9rem;
     color: rgb(226, 212, 212);
   }
 
@@ -148,5 +150,30 @@ h3 {
 		width: 90%;
 	}
 	
-	/* SKINS */
+	.btn {
+		background-color: #F0F0F0;
+		max-width: 1/3;
+	}
+	
+	.btn-text {
+		color: black;
+		font-size: 3rem;
+	}
+	
+	.btn-text-input {
+		font-size: 1.5rem;
+		color: black;
+	}
+	
+	.flex-container {
+		display: flex;
+	}
+	
+	.flex-child {
+		flex: 1;
+	}
+	
+	.logo-sun {
+		visibility: collapse;
+	}
   }

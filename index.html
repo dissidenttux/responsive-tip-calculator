@@ -52,18 +52,23 @@
 				-->
 				<main>
 					<!-- Input for the cost of the meal-->
-							<label for="meal">Check Amount</label><br>
-							$<input type="text" id="meal" placeholder="Amount of the meal">
+					<div class="flex-container">
+						<div class="flex-child btn">
+							<label class="btn-text"for="meal">$ Check Amount (Total)</label><br>
+							<input class="btn-text-input" type="text" id="meal" placeholder="0.00">
 							<br>
 							<br>
-							<!-- Input for number of guests-->
-							<label for="guests"># of Guests (Split)</label><br>
-							<input type="text" id="guests" name="guests" placeholder="Number of guests">
+						</div>
+						<!-- Input for number of guests-->
+						<div class="flex-child btn">
+							<label class="btn-text" for="guests"># of Guests (Split)</label><br>
+							<input class="btn-text-input" type="text" id="guests" name="guests" placeholder="0">
 							<br>
 							<br>
-
-							<!-- Input for quality of service (tip percentage), with submit button -->
-							<label for="service">Quality of Service (Tip %)</label><br>
+						</div>
+						<!-- Input for quality of service (tip percentage), with submit button -->
+						<div class="flex-child btn">
+							<label class="btn-text" for="service">Quality of Service (Tip %)</label><br>
 							<select id="service">
 								<option selected disabled hidden>
 									Select
@@ -73,17 +78,21 @@
 								<option value="0.15">15% - Good</option>
 								<option value="0.10">10% - Bad</option>
 								<option value="0.05">5% - Worst</option>
-							</select> <button id="calculate">Calculate</button>
+							</select> <button class="btn-text-input" id="calculate">Calculate</button>
 							<br>
+						</div>
+					</div>
 				</main>
-		
-				<div class="split left">
-					<div class="tip">
-						<p>Tip Amount Per Guest (Split)</p>
-						$<span id="total"></span><br>
-						<span2 id="each"></span2>
-						<p>Total Tip Amount</p>
-						$<span id="tiptotal"></span>
+				
+				<div class="flex-container">
+					<div class="flex-child">
+					<p class="btn-text">$ Tip Amount Per Guest</p>
+					<span class="btn-text" id="total"></span><br>
+					<span2 id="each"></span2>
+					</div>
+					<div class="flex-child">
+					<p class="btn-text">$ Total Tip Amount</p>
+					<span class="btn-text" id="tiptotal"></span>
 					</div>
 				</div>
 			</div>
