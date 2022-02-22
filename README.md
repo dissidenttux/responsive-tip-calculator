@@ -29,5 +29,5 @@ How to install your the app on mobile
 2. Search for and open https://dissidentwolf.github.io/responsive-tip-calculator/
 3. Tap the share symbol, scroll down the menu, then tap "Add to Homescreen."
 4. You'll be able to enter a name for the shortcut and then Safari will add the Gab app to your home screen.
-5. Open the Gab app from your home screen.
+5. Open the Responsive Tip Calculator app from your home screen.
 **Note:** *Older versions of Safari may not have this feature. If you're using iOS with a browser like Brave, please follow the Android instructions above.*
