@@ -15,7 +15,7 @@ UI more catered to an employee who is acting as a proxy for the customer, calcul
 ## Installation
 How to install your the app on mobile
 
-**Get the Responsive Tip Calculator App On Android:**
+**Get the Responsive Tip Calculator app On Android:**
 
 1. Launch “Chrome” app or your default browser.
 2. Search for https://dissidentwolf.github.io/responsive-tip-calculator/ and open the site
