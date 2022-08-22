@@ -1,4 +1,4 @@
-https://dissidentwolf.github.io/responsive-tip-calculator/
+https://dissidenttux.github.io/responsive-tip-calculator/
 
 # Responsive Tip Calculator
 
